@@ -13,6 +13,8 @@ html {
 
 body {
 	background: #FFFFFF;
+	font-family: "Raleway", sans-serif;
+
 }
 
 /********************
@@ -55,6 +57,37 @@ header{
 	text-align: center;
 	color: #EEEEEE;
 	margin: 0 auto;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+
+}
+
+nav ul li {
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+	margin: 0;
+	padding: 1rem 0;
+	transition: color .5s ease;
+	color: #EEEEEE;
+}
+
+nav ul li {
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+	margin: 0;
+	padding: 1rem 0;
+	transition: background-color .5s ease;
+	background-color: transparent;
+	color: #EEEEEE;
+}
+
+nav ul li:hover {
+	background-color: #222222;
 }
 
 /********************
