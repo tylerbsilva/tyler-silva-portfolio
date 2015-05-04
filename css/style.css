@@ -52,6 +52,7 @@ header{
 .info {
 	font-family: "Rock Salt", display;
 	font-size: .75em;
+	text-align: center;
 	color: #EEEEEE;
 	margin: 0 auto;
 }
@@ -64,4 +65,22 @@ section {
 	width: 80%;
 	margin-left: 20%;
 	padding: 2rem;
+}
+
+/********************
+	Media Queries
+********************/
+
+@media only screen and (max-width: 600px) {
+	header {
+		width: 100%;
+		height: auto;
+		position: relative;
+	}
+
+	section {
+		width: 100%;
+		margin: 0 0;
+		padding: 0 1rem;
+	}
 }
