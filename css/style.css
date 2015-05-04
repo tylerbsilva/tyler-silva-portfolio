@@ -1,0 +1,67 @@
+/* Portfolio made by Tyler Silva */
+
+/********************
+	Globals
+********************/
+
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	background: #FFFFFF;
+}
+
+/********************
+	Typography
+********************/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Bitter", serif;
+	font-weight: 700;
+}
+
+/********************
+	Header
+********************/
+
+header{
+	width: 20%;
+	height: 100vh;
+	background: #333333;
+	float: left;
+	position: fixed;
+	z-index: 9999;
+}
+
+.header-picture {
+	width: 80%;
+	height: auto;
+	margin: 1rem auto;
+	border-radius: 50%;
+}
+
+.info {
+	font-family: "Rock Salt", display;
+	font-size: .75em;
+	color: #EEEEEE;
+	margin: 0 auto;
+}
+
+/********************
+	Sections
+********************/
+
+section {
+	width: 80%;
+	margin-left: 20%;
+	padding: 2rem;
+}
