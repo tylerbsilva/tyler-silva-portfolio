@@ -143,13 +143,40 @@ section {
   background-repeat: no-repeat;
 }
 
-.more-indent {
+.project-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.project {
+	float: left;
+	display: inline-block;
+	padding: .5rem;
+	width: 50%;
+	text-align: center;
+
+}
+
+.project img {
+	width: 100%;
+	height: auto;
+	border-radius: 5px;
+	box-shadow: 0 3px 0 #999999;
+}
+
+.project p {
+	margin-top: 2rem;
+}
+
+.indent {
 	padding-left: 2rem;
 }
 
 .contact {
-  text-align: center;
-  color: #AAAAAA;
+	margin-top: 2rem;
+  	text-align: center;
+  	color: #AAAAAA;
 }
 
 .contact ul {
@@ -209,6 +236,10 @@ a:hover, a:visited {
 
 	.masthead {
 		background-position: center-top;
+	}
+
+	.indent {
+		padding-left: 1rem;
 	}
 
 
