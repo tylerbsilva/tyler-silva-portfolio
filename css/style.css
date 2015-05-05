@@ -54,7 +54,9 @@ header{
 	width: 100%;
 	height: 100%;
 	border-radius: 50%;
-
+	max-width: 215px;
+	max-height: 215px;
+	margin: 0 auto;
 }
 
 
@@ -89,12 +91,17 @@ nav ul li {
 	margin: 0;
 	padding: 1rem 0;
 	transition: background-color .5s ease;
-	background-color: transparent;
+
 	color: #EEEEEE;
 }
 
 nav ul li:hover {
 	background-color: #222222;
+}
+
+nav ul li a {
+	color: inherit;
+	text-decoration: none;
 }
 
 /********************
@@ -103,8 +110,67 @@ nav ul li:hover {
 
 section {
 	width: 80%;
+	max-width: 1000px;
 	margin-left: 20%;
-	padding: 2rem;
+	padding: 1rem;
+}
+
+.masthead-intro,
+.masthead-heading {
+  text-align: center;
+}
+
+.masthead-intro {
+  margin-bottom: 0.5em;
+  font-size: 2em;
+  color: #EEEEEE;
+  text-shadow: 1px 1px 0 #AAAAAA, 2px 2px 0 #999999, 3px 3px 0 #888888, 4px 4px 0 #777777, 5px 5px 5px #666666;
+}
+
+.masthead-heading {
+  margin-top: -0.2em;
+  font-size: 6em;
+  color: #EEEEEE;
+  text-shadow: 1px 1px 0 #AAAAAA, 2px 2px 0 #999999, 3px 3px 0 #888888, 4px 4px 0 #777777, 5px 5px 0 #666666, 6px 6px 10px #555555;
+}
+
+.masthead {
+  font-family: "Righteous";
+  padding: 6em 0;
+  background-image: url(https://download.unsplash.com/photo-1428342319217-5fdaf6d7898e);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.more-indent {
+	padding-left: 2rem;
+}
+
+.contact {
+  text-align: center;
+  color: #AAAAAA;
+}
+
+.contact ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.contact li {
+  	display: inline-block;
+}
+
+a {
+  font-weight: 600;
+  padding: 1em;
+  text-decoration: none;
+  color: #444444;
+}
+
+a:hover, a:visited {
+  color: #CCCCCC;
 }
 
 /********************
@@ -135,8 +201,15 @@ section {
 	background-color: transparent;
 	color: #EEEEEE;
 	}
+
 	.header-picture {
 		width: 50%;
-		margin: 1rem auto;
+		margin: .5rem auto;
 	}
+
+	.masthead {
+		background-position: center-top;
+	}
+
+
 }
