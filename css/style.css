@@ -45,15 +45,22 @@ header{
 }
 
 .header-picture {
-	width: 80%;
+	width: 100% ;
 	height: auto;
-	margin: 1rem auto;
-	border-radius: 50%;
+	padding: 1rem;
 }
+
+.header-picture img {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+
+}
+
 
 .info {
 	font-family: "Rock Salt", display;
-	font-size: .75em;
+	font-size: 1em;
 	text-align: center;
 	color: #EEEEEE;
 	margin: 0 auto;
@@ -115,5 +122,21 @@ section {
 		width: 100%;
 		margin: 0 0;
 		padding: 0 1rem;
+	}
+
+	nav ul li {
+	text-align: center;
+	width: 25%;
+	float: left;
+	display: inline-block;
+	margin: 0;
+	padding: 1rem 0;
+	transition: background-color .5s ease;
+	background-color: transparent;
+	color: #EEEEEE;
+	}
+	.header-picture {
+		width: 50%;
+		margin: 1rem auto;
 	}
 }
