@@ -1,24 +1,24 @@
 /* Portfolio made by Tyler Silva */
 
 /********************
-	Globals
+  Globals
 ********************/
 
 html {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
 body {
-	background: #FFFFFF;
-	font-family: "Raleway", sans-serif;
+  background: #FFFFFF;
+  font-family: "Raleway", sans-serif;
 
 }
 
 /********************
-	Typography
+  Typography
 ********************/
 
 h1,
@@ -27,92 +27,92 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: "Bitter", serif;
-	font-weight: 700;
+  font-family: "Bitter", serif;
+  font-weight: 700;
 }
 
 /********************
-	Header
+  Header
 ********************/
 
 header{
-	width: 20%;
-	height: 100vh;
-	background: #333333;
-	float: left;
-	position: fixed;
-	z-index: 9999;
+  width: 20%;
+  height: 100vh;
+  background: #333333;
+  float: left;
+  position: fixed;
+  z-index: 9999;
 }
 
 .header-picture {
-	width: 100% ;
-	height: auto;
-	padding: 1rem;
+  width: 100% ;
+  height: auto;
+  padding: 1rem;
 }
 
 .header-picture img {
-	width: 100%;
-	height: 100%;
-	border-radius: 50%;
-	max-width: 215px;
-	max-height: 215px;
-	margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  max-width: 215px;
+  max-height: 215px;
+  margin: 0 auto;
 }
 
 
 .info {
-	font-family: "Rock Salt", display;
-	font-size: 1em;
-	text-align: center;
-	color: #EEEEEE;
-	margin: 0 auto;
+  font-family: "Rock Salt", display;
+  font-size: 1em;
+  text-align: center;
+  color: #EEEEEE;
+  margin: 0 auto;
 }
 
 nav ul {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 
 }
 
 nav ul li {
-	text-align: center;
-	width: 100%;
-	display: inline-block;
-	margin: 0;
-	padding: 1rem 0;
-	transition: color .5s ease;
-	color: #EEEEEE;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  margin: 0;
+  padding: 1rem 0;
+  transition: color .5s ease;
+  color: #EEEEEE;
 }
 
 nav ul li {
-	text-align: center;
-	width: 100%;
-	display: inline-block;
-	margin: 0;
-	padding: 1rem 0;
-	transition: background-color .5s ease;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  margin: 0;
+  padding: 1rem 0;
+  transition: background-color .5s ease;
 
-	color: #EEEEEE;
+  color: #EEEEEE;
 }
 
 nav ul li:hover {
-	background-color: #222222;
+  background-color: #222222;
 }
 
 nav ul li a {
-	color: inherit;
-	text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 /********************
-	Sections
+  Sections
 ********************/
 
 section {
-	width: 80%;
-	max-width: 1000px;
-	margin-left: 20%;
-	padding: 1rem;
+  width: 80%;
+  max-width: 1000px;
+  margin-left: 20%;
+  padding: 1rem;
 }
 
 .masthead-intro,
@@ -138,55 +138,55 @@ section {
   font-family: "Righteous";
   padding: 6em 0;
   background-image: url(https://download.unsplash.com/photo-1428342319217-5fdaf6d7898e);
-  background-position: center;
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .project-list {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .project {
-	float: left;
-	display: inline-block;
-	padding: .5rem;
-	width: 50%;
-	text-align: center;
+  float: left;
+  display: inline-block;
+  padding: .5rem;
+  width: 50%;
+  text-align: center;
 
 }
 
 .project img {
-	width: 100%;
-	height: auto;
-	border-radius: 5px;
-	box-shadow: 0 3px 0 #999999;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 3px 0 #999999;
 }
 
 .project p {
-	margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 .indent {
-	padding-left: 2rem;
+  padding-left: 2rem;
 }
 
 .contact {
-	margin-top: 2rem;
-  	text-align: center;
-  	color: #AAAAAA;
+  margin-top: 2rem;
+    text-align: center;
+    color: #AAAAAA;
 }
 
 .contact ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .contact li {
-  	display: inline-block;
+    display: inline-block;
 }
 
 a {
@@ -201,50 +201,50 @@ a:hover, a:visited {
 }
 
 /********************
-	Media Queries
+  Media Queries
 ********************/
 
 @media only screen and (max-width: 600px) {
-	header {
-		width: 100%;
-		height: auto;
-		position: relative;
-	}
+  header {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
 
-	section {
-		width: 100%;
-		margin: 0 0;
-		padding: 0 1rem;
-	}
+  section {
+    width: 100%;
+    margin: 0 0;
+    padding: 0 1rem;
+  }
 
-	nav ul li {
-	text-align: center;
-	width: 25%;
-	float: left;
-	display: inline-block;
-	margin: 0;
-	padding: 1rem 0;
-	transition: background-color .5s ease;
-	background-color: transparent;
-	color: #EEEEEE;
-	}
+  nav ul li {
+  text-align: center;
+  width: 25%;
+  float: left;
+  display: inline-block;
+  margin: 0;
+  padding: 1rem 0;
+  transition: background-color .5s ease;
+  background-color: transparent;
+  color: #EEEEEE;
+  }
 
-	.header-picture {
-		width: 50%;
-		margin: .5rem auto;
-	}
+  .header-picture {
+    width: 50%;
+    margin: .5rem auto;
+  }
 
-	.masthead {
-		background-position: center-top;
-	}
+  .masthead {
+    position: relative;
+  }
 
-	.indent {
-		padding-left: 1rem;
-	}
+  .indent {
+    padding-left: 1rem;
+  }
 
-	.project {
-		width: 100%;
-	}
+  .project {
+    width: 100%;
+  }
 
 
 }
