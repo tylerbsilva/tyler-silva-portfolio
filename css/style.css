@@ -138,7 +138,7 @@ section {
 .masthead {
   font-family: "Righteous";
   padding: 6em 0;
-  background-image: url(https://download.unsplash.com/photo-1428342319217-5fdaf6d7898e);
+  background-image: url("../img/masthead.png");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
