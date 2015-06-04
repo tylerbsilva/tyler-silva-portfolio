@@ -15,7 +15,7 @@ body {
   background: #FFFFFF;
   font-family: "Raleway", sans-serif;
   max-width: 1250px;
-
+  margin: 0 auto;
 }
 
 /********************
@@ -176,8 +176,11 @@ section {
 
 .contact {
   margin-top: 2rem;
-    text-align: center;
-    color: #AAAAAA;
+  padding: .5em;
+  text-align: center;
+  color: #AAAAAA;
+  background: #333333;
+  clear: both;
 }
 
 .contact ul {
@@ -192,7 +195,6 @@ section {
 
 a {
   font-weight: 600;
-  padding: 1em;
   text-decoration: none;
   color: #444444;
 }
@@ -224,15 +226,15 @@ a:hover, a:visited {
   }
 
   nav ul li {
-  text-align: center;
-  width: 25%;
-  float: left;
-  display: inline-block;
-  margin: 0;
-  padding: 1rem 0;
-  transition: background-color .5s ease;
-  background-color: transparent;
-  color: #EEEEEE;
+    text-align: center;
+    width: 25%;
+    float: left;
+    display: inline-block;
+    margin: 0;
+    padding: 1rem 0;
+    transition: background-color .5s ease;
+    background-color: transparent;
+    color: #EEEEEE;
   }
 
   .header-picture {
@@ -256,6 +258,5 @@ a:hover, a:visited {
   .project {
     width: 100%;
   }
-
 
 }
