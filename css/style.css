@@ -14,6 +14,7 @@ html {
 body {
   background: #FFFFFF;
   font-family: "Raleway", sans-serif;
+  max-width: 1250px;
 
 }
 
@@ -38,6 +39,7 @@ h6 {
 header{
   width: 20%;
   height: 100vh;
+  max-width: 250px;
   background: #333333;
   float: left;
   position: fixed;
@@ -51,11 +53,10 @@ header{
 }
 
 .header-picture img {
+  position: relative;
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  max-width: 215px;
-  max-height: 215px;
   margin: 0 auto;
 }
 
@@ -207,14 +208,19 @@ a:hover, a:visited {
 @media only screen and (max-width: 600px) {
   header {
     width: 100%;
+    max-width: 100%;
     height: auto;
     position: relative;
+    clear: both;
   }
+
+
 
   section {
     width: 100%;
     margin: 0 0;
     padding: 0 1rem;
+    clear: both;
   }
 
   nav ul li {
@@ -236,6 +242,11 @@ a:hover, a:visited {
 
   .masthead {
     position: relative;
+    max-height: 200px;
+  }
+
+  .masthead-intro, .masthead-heading {
+    display: none;
   }
 
   .indent {
